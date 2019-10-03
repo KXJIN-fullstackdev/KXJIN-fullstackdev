@@ -1,18 +1,22 @@
 {
   "compilerOptions": {
     "module": "commonjs",
-    "target": "es5",
+    "target": "es6",
     "lib": ["es6", "dom"],
     "jsx": "react",
     "moduleResolution": "node",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
-    "noEmit": true,
+    "noEmit": false,
     "experimentalDecorators": true,
     "baseUrl": "./",
     "allowSyntheticDefaultImports": true,
     "suppressImplicitAnyIndexErrors": true,
-    "noErrorTruncation": true,
-    "allowJs": true
-  }
+    "outDir": "./lib",
+    "skipLibCheck": true,
+    "rootDir": "./src",
+    "noImplicitAny": false, // TODO remove in the future
+    "strictNullChecks": false // TODO remove in the future
+  },
+  "include": ["src/**/*"]
 }
