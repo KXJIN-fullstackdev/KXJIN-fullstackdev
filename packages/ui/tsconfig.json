@@ -27,13 +27,9 @@
     "allowSyntheticDefaultImports": true,
     "suppressImplicitAnyIndexErrors": false,
     "outDir": "./dist",
-    "rootDir": "../",
-    "baseUrl": ".",
+    "baseUrl": "./",
     "skipLibCheck": true,
     "esModuleInterop": true,
-    "strictNullChecks": true,
-    "paths": {
-      "@stacks/ui-core": ["../ui-core/src"]
-    }
+    "strictNullChecks": true
   }
 }
